@@ -10,4 +10,9 @@ cd "${CLAUDE_PROJECT_DIR}"
 echo "==> Installing Ruby gem dependencies..."
 bundle install
 
+if [ -f "dashboard/package.json" ]; then
+  echo "==> Installing Node.js dependencies for dashboard..."
+  npm ci --prefix dashboard
+fi
+
 echo "==> Dependencies installed."

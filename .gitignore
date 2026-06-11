@@ -5,3 +5,4 @@ _site/
 dashboard/node_modules/
 dashboard/.next/
 dashboard/out/
+__pycache__/

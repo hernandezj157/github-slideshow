@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .bundle
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+__pycache__/

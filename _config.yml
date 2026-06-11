@@ -105,6 +105,7 @@ exclude: [
   "Gemfile",
   "Gemfile.lock",
   "vendor",
+  "dashboard",
   "reveal.js/test",
   "reveal.js/index.html",
   "reveal.js/README.md",
